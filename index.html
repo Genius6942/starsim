@@ -21,7 +21,6 @@
     <script src="./eruda.js"></script>
     <script src="./loadEruda.js"></script>
     <script src="./libraries/stats.js"></script>
-    <script src="./libraries/dat.gui.js"></script>
     <script>
       const bounce = false;
 
@@ -33,8 +32,6 @@
 
       document.body.appendChild(canvas);
 
-      const gui = new dat.GUI({ name: "HoleSim" });
-      const blackHoleFolder = gui.addFolder("Black Hole");
 
       const stats = new Stats();
       document.body.appendChild(stats.dom);
